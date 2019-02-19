@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC2C3E29221B8B2B00C94236 /* AudioTrackControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2C3E28221B8B2A00C94236 /* AudioTrackControl.swift */; };
+		CC2C3E2B221B8BE800C94236 /* AudioData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2C3E2A221B8BE800C94236 /* AudioData.swift */; };
+		CC2C3E2F221B9C0500C94236 /* Audible.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2C3E2E221B9C0500C94236 /* Audible.swift */; };
+		CC4A32A921FE97AA006A3FE2 /* SpotifyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A32A821FE97AA006A3FE2 /* SpotifyClient.swift */; };
+		CC4F9366220520AB00FDEA3F /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4F9365220520AB00FDEA3F /* SpotifyAudioPlayback.framework */; };
+		CC5F1EAF221B26AB00A51D82 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5F1EAE221B26AB00A51D82 /* Drawable.swift */; };
+		CC5F1EB8221B2D0300A51D82 /* Trackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5F1EB7221B2D0300A51D82 /* Trackable.swift */; };
+		CC5F1EBA221B345100A51D82 /* ControlSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5F1EB9221B345100A51D82 /* ControlSurface.swift */; };
 		CC6F84D721FE7BE300D1C585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F84D621FE7BE300D1C585 /* AppDelegate.swift */; };
 		CC6F84D921FE7BE300D1C585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F84D821FE7BE300D1C585 /* ViewController.swift */; };
 		CC6F84DC21FE7BE300D1C585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6F84DA21FE7BE300D1C585 /* Main.storyboard */; };
@@ -14,6 +22,7 @@
 		CC6F84E121FE7BE500D1C585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6F84DF21FE7BE500D1C585 /* LaunchScreen.storyboard */; };
 		CC6F84EC21FE7BE500D1C585 /* MusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F84EB21FE7BE500D1C585 /* MusicAppTests.swift */; };
 		CC6F84F721FE7BE500D1C585 /* MusicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F84F621FE7BE500D1C585 /* MusicAppUITests.swift */; };
+		CC8C44DB21FE931800DD8F14 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8C44DA21FE931800DD8F14 /* SpotifyiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC2C3E28221B8B2A00C94236 /* AudioTrackControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrackControl.swift; sourceTree = "<group>"; };
+		CC2C3E2A221B8BE800C94236 /* AudioData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioData.swift; sourceTree = "<group>"; };
+		CC2C3E2E221B9C0500C94236 /* Audible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audible.swift; sourceTree = "<group>"; };
+		CC4A32A821FE97AA006A3FE2 /* SpotifyClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyClient.swift; sourceTree = "<group>"; };
+		CC4F9365220520AB00FDEA3F /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		CC5F1EAE221B26AB00A51D82 /* Drawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
+		CC5F1EB7221B2D0300A51D82 /* Trackable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trackable.swift; sourceTree = "<group>"; };
+		CC5F1EB9221B345100A51D82 /* ControlSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSurface.swift; sourceTree = "<group>"; };
 		CC6F84D321FE7BE300D1C585 /* MusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6F84D621FE7BE300D1C585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC6F84D821FE7BE300D1C585 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,8 @@
 		CC6F84F221FE7BE500D1C585 /* MusicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6F84F621FE7BE500D1C585 /* MusicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppUITests.swift; sourceTree = "<group>"; };
 		CC6F84F821FE7BE500D1C585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8C44DA21FE931800DD8F14 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		CC8C44DC21FE958800DD8F14 /* MusicApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicApp-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8C44DB21FE931800DD8F14 /* SpotifyiOS.framework in Frameworks */,
+				CC4F9366220520AB00FDEA3F /* SpotifyAudioPlayback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +95,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC5F1EAD221B261F00A51D82 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CC5F1EAE221B26AB00A51D82 /* Drawable.swift */,
+				CC5F1EB7221B2D0300A51D82 /* Trackable.swift */,
+				CC2C3E2A221B8BE800C94236 /* AudioData.swift */,
+				CC2C3E2E221B9C0500C94236 /* Audible.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		CC5F1EB0221B28EF00A51D82 /* AppModules */ = {
+			isa = PBXGroup;
+			children = (
+				CC5F1EB1221B290000A51D82 /* AudioPlayer */,
+			);
+			path = AppModules;
+			sourceTree = "<group>";
+		};
+		CC5F1EB1221B290000A51D82 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		CC5F1EB2221B291800A51D82 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC5F1EB9221B345100A51D82 /* ControlSurface.swift */,
+				CC2C3E28221B8B2A00C94236 /* AudioTrackControl.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		CC6F84CA21FE7BE300D1C585 = {
 			isa = PBXGroup;
 			children = (
+				CC8C44DC21FE958800DD8F14 /* MusicApp-Bridging-Header.h */,
 				CC6F84D521FE7BE300D1C585 /* MusicApp */,
+				CC4F9365220520AB00FDEA3F /* SpotifyAudioPlayback.framework */,
 				CC6F84EA21FE7BE500D1C585 /* MusicAppTests */,
 				CC6F84F521FE7BE500D1C585 /* MusicAppUITests */,
 				CC6F84D421FE7BE300D1C585 /* Products */,
+				CC8C44DA21FE931800DD8F14 /* SpotifyiOS.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +156,16 @@
 		CC6F84D521FE7BE300D1C585 /* MusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				CC5F1EB2221B291800A51D82 /* Classes */,
+				CC5F1EAD221B261F00A51D82 /* protocols */,
+				CC5F1EB0221B28EF00A51D82 /* AppModules */,
 				CC6F84D621FE7BE300D1C585 /* AppDelegate.swift */,
 				CC6F84D821FE7BE300D1C585 /* ViewController.swift */,
 				CC6F84DA21FE7BE300D1C585 /* Main.storyboard */,
 				CC6F84DD21FE7BE500D1C585 /* Assets.xcassets */,
 				CC6F84DF21FE7BE500D1C585 /* LaunchScreen.storyboard */,
 				CC6F84E221FE7BE500D1C585 /* Info.plist */,
+				CC4A32A821FE97AA006A3FE2 /* SpotifyClient.swift */,
 			);
 			path = MusicApp;
 			sourceTree = "<group>";
@@ -257,7 +320,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC6F84D921FE7BE300D1C585 /* ViewController.swift in Sources */,
+				CC2C3E2F221B9C0500C94236 /* Audible.swift in Sources */,
 				CC6F84D721FE7BE300D1C585 /* AppDelegate.swift in Sources */,
+				CC4A32A921FE97AA006A3FE2 /* SpotifyClient.swift in Sources */,
+				CC5F1EAF221B26AB00A51D82 /* Drawable.swift in Sources */,
+				CC2C3E29221B8B2B00C94236 /* AudioTrackControl.swift in Sources */,
+				CC5F1EBA221B345100A51D82 /* ControlSurface.swift in Sources */,
+				CC2C3E2B221B8BE800C94236 /* AudioData.swift in Sources */,
+				CC5F1EB8221B2D0300A51D82 /* Trackable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,8 +437,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "MusicApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -421,8 +493,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "MusicApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -434,6 +508,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GQGZN6D9K9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MusicApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,6 +519,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AppLab.MusicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MusicApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +531,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GQGZN6D9K9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MusicApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +542,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = AppLab.MusicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MusicApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

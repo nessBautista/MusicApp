@@ -41,5 +41,20 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>spotify</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>AppLab.MusicApp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>MusicApp</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
